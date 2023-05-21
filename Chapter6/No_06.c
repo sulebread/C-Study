@@ -20,18 +20,18 @@ int main(void){
     //메뉴 번호에 따른 수행 결과 출력
     switch (menu)
     {
-    case 0 :
-        printf("프로그램을 종료합니다.\n");
-        break;
-    case 1 :
-        printf("파일 열기를 수행합니다.\n");
-        break;
-    case 2 :
-        printf("파일 저장을 수행합니다.\n");
-        break;
-    case 3 :
-        printf("파일 인쇄를 수행합니다.\n");
-        break;
+        case 0 :
+            printf("프로그램을 종료합니다.\n");
+            break;
+        case 1 :
+            printf("파일 열기를 수행합니다.\n");
+            break;
+        case 2 :
+            printf("파일 저장을 수행합니다.\n");
+            break;
+        case 3 :
+            printf("파일 인쇄를 수행합니다.\n");
+            break;
     }
 
     return 0;
@@ -49,7 +49,7 @@ int choose_menu(void){
         scanf("%d", &menu);
 
         //메뉴가 0~3인 경우 반복문 탈출 
-        if(menu > 0 && menu < 4)
+        if(menu >= 0 && menu < 4)
             break;
     }
 
