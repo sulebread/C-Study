@@ -20,7 +20,7 @@ int main(void){
     scanf("%i", &data);
 
     //비트 위치 표현. 계산을 위해 데이터 비트 - 1 
-    pos = bitsize - 1;
+    pos = BITSIZE - 1;
 
     //비트 위치 값 출력을 위한 반복문
     for(pos; pos >= 0; pos--){
