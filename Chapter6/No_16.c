@@ -6,7 +6,7 @@
 */
 
 #include <stdio.h>
-#define bitsize 32 //32비트 데이터
+#define BITSIZE 32 //32비트 데이터
 
 //위치별 비트 값 확인 함수 선언
 int is_bit_set(int, int);
