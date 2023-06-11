@@ -18,8 +18,11 @@ int AAA(int x){
     int i;
 
     for(i = 1; i <= x; i++){
-        if((i % 2) != 0)
+        if((i % 2) != 0){
             sum += i;
+        } else if ((i % 2) == 0) {
+            continue;
+        }
     }
 
     return sum;
