@@ -1,8 +1,7 @@
 #include <stdio.h>
+int num = 0;
 
 void Testlocal(void){
-    int num = 0;
-
     printf("num = %d ", num++);
 }
 
