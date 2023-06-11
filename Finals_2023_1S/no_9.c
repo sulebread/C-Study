@@ -3,7 +3,7 @@
 //함수 선언
 int AAA(int);
 
-int main(void){
+int main(void) {
     int x;
 
     scanf("%d", &x);
@@ -13,12 +13,12 @@ int main(void){
 }
 
 //함수정의
-int AAA(int x){
+int AAA(int x) {
     int sum = 0;
     int i;
 
-    for(i = 1; i <= x; i++){
-        if((i % 2) != 0){
+    for (i = 1; i <= x; i++) {
+        if ((i % 2) != 0) {
             sum += i;
         } else if ((i % 2) == 0) {
             continue;
