@@ -2,13 +2,12 @@
 
 int AAA(void);
 
-int main(void){
+int main(void) {
     int num;
 
     num = AAA();
 
-    if ((num % 2) == 0)
-    {
+    if ((num % 2) == 0) {
         printf("%d는 짝수 입니다.\n", num);
     } else {
         printf("%d는 홀수 입니다.\n", num);
@@ -17,7 +16,7 @@ int main(void){
     return 0;
 }
 
-int AAA(void){
+int AAA(void) {
     int num;
     
     printf("정수를 입력하세요 : ");
