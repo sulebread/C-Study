@@ -33,7 +33,7 @@ int check(char arr[]){
             break;
     }
 
-    for(int i = 0; i <= index; i++){
+    for(int i = 0; i <= index/2; i++){
         if(arr[i] != arr[index - i]){
             return 0;
         }
